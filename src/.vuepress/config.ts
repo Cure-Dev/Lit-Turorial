@@ -2,18 +2,18 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/en-us/",
 
   locales: {
-    "/": {
+    "/en-us/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Lit Tutorial",
+      description: "A Tutorial For Lit Beginners",
     },
-    "/zh/": {
+    "/zh-cn/": {
       lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
+      title: "Lit 新手教程",
+      description: "Lit 初学者的新手教程",
     },
   },
 
@@ -22,3 +22,6 @@ export default defineUserConfig({
   // Enable it with pwa
   // shouldPrefetch: false,
 });
+
+// title only 'lit tutorial'
+// auto detect language
