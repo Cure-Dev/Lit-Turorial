@@ -12,10 +12,10 @@ tagline: 简洁大方的 Lit 官方文档
 actions:
   - text: 开始学习
     icon: lightbulb
-    link: ./demo/
+    link: ./get-start/
     type: primary
 
-  - text: 文档
+  - text: 文档 # advanced #
     link: ./guide/
 
 highlights:
