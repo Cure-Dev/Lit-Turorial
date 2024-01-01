@@ -17,6 +17,6 @@ Lit 新手文档
 npm run docs:dev
 ```
 依赖：
-- node
+- nodejs
 - npm
 - vuepress-theme-hope

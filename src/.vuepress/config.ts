@@ -2,7 +2,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/en-us/",
+  base: "/",
+  lang: "zh-CN",
 
   locales: {
     "/en-us/": {
@@ -17,10 +18,21 @@ export default defineUserConfig({
     },
   },
 
+  // theme: theme({
+  //   // default detect?
+  //   locales: {
+  //     '/en-us/': {
+  //       selectLanguageName: 'English',
+  //     },
+  //     '/zh-cn/': {
+  //       selectLanguageName: '简体中文',
+  //     },
+  //   },
+  // }),
   theme,
 
   // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: true,
 });
 
 // title only 'lit tutorial'

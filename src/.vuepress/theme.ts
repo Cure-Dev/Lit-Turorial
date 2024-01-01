@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Cure-X",
+    url: "https://cure-x.net",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -19,7 +19,7 @@ export default hopeTheme({
   docsDir: "src",
 
   locales: {
-    "/": {
+    "/en-us/": {
       // navbar
       navbar: enNavbar,
 
@@ -38,7 +38,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/zh-cn/": {
       // navbar
       navbar: zhNavbar,
 
@@ -58,8 +58,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/en-us/demo/encrypt.html": ["1234"],
+      "/zh-cn/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -71,6 +71,10 @@ export default hopeTheme({
       repoId: "R_kgDOG_Pt2A",
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
+    },
+
+    copyCode: {
+      pure: true,
     },
 
     // All features are enabled for demo, only preserve features you need here

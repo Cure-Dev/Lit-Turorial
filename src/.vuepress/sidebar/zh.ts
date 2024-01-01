@@ -1,25 +1,19 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/zh/": [
+  "/zh-cn/": [
     "",
     {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      text: "快速上手",
+      prefix: 'get-start/',
+      link: "get-start/",
+      children: 'structure'
     },
     {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+      text: '基本元素',
+      prefix: 'elements/',
+      link: 'elements',
+      children: 'structure'
+    }
   ],
 });
