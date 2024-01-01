@@ -13,7 +13,7 @@ export const zhSidebar = sidebar({
       text: '基本元素',
       prefix: 'elements/',
       link: 'elements/', //？
-      children: ['literal.md', 'identifier.md', 'keyword.md', 'relation.md']
+      children: ['literal.md', 'identifier.md', 'keyword.md', 'relation.md', 'comment.md', 'escape.md', 'punc.md']
     }
   ],
 });
