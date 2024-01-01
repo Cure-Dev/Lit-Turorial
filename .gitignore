@@ -1,7 +1,0 @@
-/.gitignore
-
-/node_modules
-/.sublime
-
-/src/.vuepress/.cache
-/src/.vuepress/.temp
