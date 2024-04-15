@@ -1,6 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
+import {redirectPlugin} from "vuepress-plugin-redirect"
+
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
@@ -31,9 +33,15 @@ export default defineUserConfig({
   // }),
   theme,
 
+  plugins: [
+
+    redirectPlugin({
+      autoLocale: true,
+    }),
+  ],
+
   // Enable it with pwa
   // shouldPrefetch: true,
 });
 
 // title only 'lit tutorial'
-// auto detect language
